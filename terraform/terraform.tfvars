@@ -1,2 +1,2 @@
 
-credentials_file = "D:\\G\\!\\Tа\\DeVopS\\Terraform_test\\credentials.json"
+credentials_file = "/var/lib/jenkins/workspace/Diplome/credentials.json"
