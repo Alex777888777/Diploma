@@ -6,7 +6,7 @@ provider "google" {
 }
 variable "gce_ssh_user" {
   type    = string
-  default = "default"
+  default = "zfreyjaz"
 }
 
 variable "public_ssh_key" {
