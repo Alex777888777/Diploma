@@ -24,4 +24,3 @@ COPY . .
 EXPOSE 3000
 
 CMD ["npm","start"]
->>>>>>> bf3cac23f8d7fbcf67fd26b60cc3b50878fd3932
