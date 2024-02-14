@@ -1,7 +1,7 @@
 #!/bin/bash
 #sudo apt-get update && sudo apt-get upgrade -y
 sudo apt -y install git
-sudo apt -y install default-jdk
+#sudo apt -y install default-jdk
 sudo apt-get update
 for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
