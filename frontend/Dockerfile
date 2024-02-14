@@ -19,7 +19,6 @@ RUN npm install --silent
 
 
 COPY . .
-RUN npm run data:import
 
 EXPOSE 3000
 
