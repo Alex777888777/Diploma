@@ -5,4 +5,5 @@ COPY package*.json ./
 RUN npm install --silent
 COPY . .
 EXPOSE 5000
-CMD ["npm","start"]
+ENTRYPOINT ["/bin/sh", "-c", "npm run data:import && npm start"]
+#CMD ["npm","start"]
