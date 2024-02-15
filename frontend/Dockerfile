@@ -13,5 +13,4 @@ RUN npm install --silent
 COPY . .
 
 EXPOSE 3000
-ENTRYPOINT ["/bin/bash", "-c", "npm run data:import && npm start"]
 #CMD ["npm","start"]
