@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     image: myapp-server
     container_name: myapp-node-server
-    command: /bin/bash -c "/usr/src/app/node_modules/.bin/nodemon /usr/src/app/backend/server.js && npm run data:import"
+     command: /usr/src/app/node_modules/.bin/nodemon /usr/src/app/backend/server.js
     volumes:
       - ./:/usr/src/app
       - /usr/src/app/node_modules
